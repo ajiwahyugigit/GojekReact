@@ -1,12 +1,9 @@
 import React from 'react';
 import { StyleSheet } from 'react-native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import Home from '../pages/Home';
-import Pesanan from '../pages/Pesanan';
-import Chat from '../pages/Chat';
-import Inbox from '../pages/Inbox';
-import Profile from '../pages/Profile';
+import { Home, Pesanan, Chat, Inbox, Profile } from '../pages';
 
+ 
 const Tab = createBottomTabNavigator();
 
 const Router = () => {

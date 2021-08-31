@@ -1,11 +1,17 @@
 import React from 'react';
-import { Text, View } from 'react-native';
+import { Text } from 'react-native';
+import { Header } from 'react-native-elements';
+
 
 function Home() {
     return (
-        <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-            <Text>Home</Text>
-        </View>
+        <Header
+            leftComponent={{ icon: 'menu', color: '#fff', iconStyle: { color: '#fff' } }}
+            centerComponent={{ text: 'Gojek', style: { color: '#fff' } }}
+            rightComponent={{ icon: 'home', color: '#fff' }}
+            
+        />
+        
     )
 }
 

@@ -1,29 +1,16 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
-import { NavigationContainer } from '@react-navigation/native';
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import Home from '../pages/Home';
-
-const Stack = createNativeStackNavigator();
+import { StyleSheet } from 'react-native';
+import { Header} from 'react-native-elements';
 
 const Header = () => {
     return (
-        <Stack.Navigator>
-            <Stack.Screen
-                name="Home"
-                component={Home}
-                options={{
-                title: 'My home',
-                headerStyle: {
-                    backgroundColor: '#f4511e',
-                },
-                headerTintColor: '#fff',
-                headerTitleStyle: {
-                    fontWeight: 'bold',
-                },
-        }}
-      />
-    </Stack.Navigator>
+                
+        <Header
+            leftComponent={{ icon: 'menu', color: '#fff', iconStyle: { color: '#fff' } }}
+            centerComponent={{ text: 'Gojek', style: { color: '#fff' } }}
+            rightComponent={{ icon: 'home', color: '#fff' }}
+            
+        />
     )
 }
 
