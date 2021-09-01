@@ -6,10 +6,9 @@ const Header = () => {
     return (
                 
         <Header
-            leftComponent={{ icon: 'menu', color: '#fff', iconStyle: { color: '#fff' } }}
+            leftComponent={{ icon: 'git', color: '#fff', iconStyle: { color: '#fff' } }}
             centerComponent={{ text: 'Gojek', style: { color: '#fff' } }}
             rightComponent={{ icon: 'home', color: '#fff' }}
-            
         />
     )
 }

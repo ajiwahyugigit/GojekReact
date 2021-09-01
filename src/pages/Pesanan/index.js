@@ -1,11 +1,15 @@
 import React from 'react'
 import { StyleSheet, Text, View } from 'react-native'
+import { Header } from 'react-native-elements';
+
 
 const Pesanan = () => {
     return (
-        <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-            <Text>Pesanan</Text>
-        </View>
+        <Header
+        leftComponent={{ icon: 'menu', color: '#fff', iconStyle: { color: '#fff' } }}
+        centerComponent={{ text: 'Pesanan', style: { color: '#fff' } }}
+        rightComponent={{ icon: 'home', color: '#fff' }}
+    />
     )
 }
 

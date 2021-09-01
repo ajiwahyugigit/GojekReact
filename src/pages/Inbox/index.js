@@ -1,14 +1,17 @@
 import React from 'react'
 import { StyleSheet, Text, View } from 'react-native'
-import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
+import { Card, Button, Icon } from 'react-native-elements';
+import { Header } from 'react-native-elements';
+
 
 
 const Inbox = () => {
     return (
-    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <FontAwesome5 name={'home'} />
-        <Text>Inbox</Text>
-    </View>
+      <Header
+      leftComponent={{ icon: 'menu', color: '#fff', iconStyle: { color: '#fff' } }}
+      centerComponent={{ text: 'Inbox', style: { color: '#fff' } }}
+      rightComponent={{ icon: 'home', color: '#fff' }}
+  />
     )
 }
 
