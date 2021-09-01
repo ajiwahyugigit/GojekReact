@@ -2,6 +2,8 @@ import React from 'react';
 import { StyleSheet } from 'react-native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { Home, Pesanan, Chat, Inbox, Profile } from '../pages';
+import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
+
 
  
 const Tab = createBottomTabNavigator();
