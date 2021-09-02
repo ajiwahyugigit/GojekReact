@@ -1,16 +1,13 @@
-import React from 'react';
-import { Header } from 'react-native-elements';
-
-
+import React, { Component } from 'react';
+import { View, Text } from 'react-native';
+// import HeaderComponent from '../../components/Header'
 
 function Home() {
     return (
-        <Header
-            leftComponent={{ icon: 'menu', color: '#fff', iconStyle: { color: '#fff' } }}
-            centerComponent={{ text: 'Gojek', style: { color: '#fff' } }}
-            rightComponent={{ icon: 'home', color: '#fff' }}
-        />
-        
+       <View>
+           {/* <HeaderComponent /> */}
+           <Text>hoME</Text>
+       </View>
     )
 }
 
