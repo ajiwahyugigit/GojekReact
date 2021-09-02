@@ -1,14 +1,15 @@
-import React, { Component } from 'react';
-import { View, Text } from 'react-native';
-// import HeaderComponent from '../../components/Header'
+import React from 'react'
+import { StyleSheet, Text, View } from 'react-native'
+import HeaderComponent from '../../components/Header/HeaderComponent'
 
-function Home() {
+const Home = () => {
     return (
-       <View>
-           {/* <HeaderComponent /> */}
-           <Text>hoME</Text>
-       </View>
+        <View>
+            <HeaderComponent />
+        </View>
     )
 }
 
-export default Home;
+export default Home
+
+const styles = StyleSheet.create({})
