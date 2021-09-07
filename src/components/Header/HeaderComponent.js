@@ -7,7 +7,6 @@ const HeaderComponent = () => {
         <View>
            <Header
                 leftComponent={{ icon: 'menu', color: '#fff', iconStyle: { color: '#fff' } }}
-                centerComponent={{ text: 'Home', style: { color: '#fff' } }}
                 rightComponent={{ icon: 'home', color: '#fff' }}
             />
         </View>
